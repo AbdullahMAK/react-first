@@ -29,21 +29,29 @@ body {
 
 .btn {
   display: inline-block;
-  background: #00000070;
-  color: aliceblue;
+  background: #000000;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 10px 20px;
   margin: 5px;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 20px;
-  font-family: inherit;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 
 .btn:focus {
   outline: none;
 }
+
+.btn:hover{
+  padding: 12px 22px;
+  margin: 2px;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
 
 .btn:active {
   transform: scale(0.98);
@@ -54,18 +62,18 @@ body {
   width: 100%;
 }
 
-.event {
-  background: #f4f4f4;
+.task {
+  background: #47393926;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
 }
 
-.event.reminder {
+.task.reminder {
   border-left: 5px solid green;
 }
 
-.event h3 {
+.task h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
