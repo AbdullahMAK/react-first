@@ -29,7 +29,7 @@ body {
 
 .btn {
   display: inline-block;
-  background: #000000;
+  background: #0b4b3080;
   color: rgb(255, 255, 255);
   border: none;
   padding: 10px 20px;
@@ -46,9 +46,7 @@ body {
 }
 
 .btn:hover{
-  padding: 12px 22px;
-  margin: 2px;
-  font-size: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   transition: 0.4s;
 }
 
@@ -69,8 +67,18 @@ body {
   cursor: pointer;
 }
 
+.task:hover {
+  padding: 20px 30px;
+}
+
 .task.reminder {
-  border-left: 5px solid green;
+  background: #00ff0075;
+  transition: 0.8s;
+}
+
+.task.reminderfalse {
+  background: #463f3f10;
+  transition: 0.8s;
 }
 
 .task h3 {
