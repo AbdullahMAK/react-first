@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "text": "Abdullah's Task 1",
+      "day": "2021/9/1",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "Abdullah's Task 2",
+      "day": "2021/9/2",
+      "reminder": true,
+      "id": 2
+    }
+  ]
+}
