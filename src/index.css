@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins bold', sans-serif;
 }
 
 .container {
@@ -32,13 +32,14 @@ body {
   background: #0b4b3080;
   color: rgb(255, 255, 255);
   border: none;
-  padding: 10px 20px;
+  padding: 10px 40px;
   margin: 5px;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
   font-size: 18px;
   font-family: sans-serif;
+  transition: 0.4s;
 }
 
 .btn:focus {
@@ -46,13 +47,14 @@ body {
 }
 
 .btn:hover{
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(1, 30, 49, 0.527) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   transition: 0.4s;
 }
 
 
 .btn:active {
   transform: scale(0.98);
+  
 }
 
 .btn-block {
@@ -85,6 +87,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: Cambria;
 }
 
 .add-form {
