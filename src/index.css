@@ -8,6 +8,8 @@
 
 body {
   font-family: 'Poppins bold', sans-serif;
+  background: rgb(142,211,228);
+  background: linear-gradient(90deg, rgba(142,211,228,1) 0%, rgba(255,149,173,1) 100%);
 }
 
 .container {
@@ -15,9 +17,12 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: none;
   padding: 30px;
   border-radius: 5px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  background: rgb(158,211,224);
+  background: linear-gradient(90deg, rgba(158,211,224,1) 0%, rgba(217,156,170,1) 100%);
 }
 
 .header {
@@ -29,7 +34,8 @@ body {
 
 .btn {
   display: inline-block;
-  background: #0b4b3080;
+  background: rgb(4,99,122);
+  background: linear-gradient(90deg, rgba(4,99,122,1) 0%, rgba(113,3,28,1) 100%);
   color: rgb(255, 255, 255);
   border: none;
   padding: 10px 40px;
@@ -74,12 +80,12 @@ body {
 }
 
 .task.reminder {
-  background: #00ff0075;
+  background: #9ed3e0;
   transition: 0.8s;
 }
 
 .task.reminderfalse {
-  background: #463f3f10;
+  background: #d99caa;
   transition: 0.8s;
 }
 
@@ -107,7 +113,12 @@ body {
   height: 40px;
   margin: 5px;
   padding: 3px 7px;
-  font-size: 17px;
+  font-size: 18px;
+  background: rgba(4, 98, 122, 0.363);
+  background: linear-gradient(90deg, rgba(4, 98, 122, 0.164) 0%, rgba(113, 3, 29, 0.226) 100%);
+  border: none;
+  border-bottom: 0.5px solid;
+  border-radius: 5px;
 }
 
 .form-control-check {
