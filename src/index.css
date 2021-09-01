@@ -34,8 +34,8 @@ body {
 
 .btn {
   display: inline-block;
-  background: rgb(4,99,122);
-  background: linear-gradient(90deg, rgba(4,99,122,1) 0%, rgba(113,3,28,1) 100%);
+  background: rgb(4, 98, 122);
+  background: radial-gradient(90deg, rgba(0, 0, 0, 0.774) 0%, rgba(255, 255, 255, 0.472) 100%);
   color: rgb(255, 255, 255);
   border: none;
   padding: 10px 40px;
@@ -119,6 +119,7 @@ body {
   border: none;
   border-bottom: 0.5px solid;
   border-radius: 5px;
+  color: aliceblue;
 }
 
 .form-control-check {
